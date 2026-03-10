@@ -1,3 +1,0 @@
-parameters:
-  learning_rate: [0.001, 0.01, 0.05]
-  batch_size: [128]
