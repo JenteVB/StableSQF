@@ -1,4 +1,4 @@
-# *Title* </br><sub><sub>*Authors* [[*Outlet Year*]](*url to paper*)</sub></sub>
+# *Stabilizing distribution-free probabilistic forecasts* </br><sub><sub>*Jente Van Belle* [[*Outlet Year*]](*url to paper*)</sub></sub>
 *Write a short summary of your paper*
 
 ## Repository structure
