@@ -24,7 +24,6 @@ Please use the above in a newly created virtual environment to avoid clashing de
 
 ## Citing
 Please cite our paper and/or code as follows:
-*Use the BibTeX citation*
 
 ```tex
 
