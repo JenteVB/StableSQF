@@ -4,15 +4,15 @@
 ## Repository structure
 This repository is organised as follows:
 ```bash
-|- assets/
-    |- *your own files*
-|- config/
 |- data/
-|- lib/
-|- notebooks/
-|- res/
-|- scripts/
+    |- processed/
+    |- raw/
 |- src/
+    |- data/
+    |- methods/
+    |- utils/
+|- main_M4_monthly.py
+|- main_M5_items.py
 ```
 
 ## Installing
