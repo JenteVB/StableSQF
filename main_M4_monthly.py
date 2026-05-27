@@ -18,7 +18,7 @@ import torch
 
 # CHECK CONNECTION W WANDB
 wandb.login()
-project_name = "SQF_final"
+project_name = "StableSQF"
 
 # EXPERIMENT CONFIGURATION
 
