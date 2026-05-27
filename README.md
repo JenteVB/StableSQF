@@ -7,9 +7,14 @@ This repository is organised as follows:
 |- data/
     |- processed/
     |- raw/
+        |- m5_items.txt
 |- src/
     |- data/
+        |- M4.py
+        |- M5.py
+        |- utils/
     |- methods/
+        |- StableSQF.py
     |- utils/
 |- main_M4_monthly.py
 |- main_M5_items.py
