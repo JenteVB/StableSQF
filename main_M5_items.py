@@ -18,14 +18,14 @@ import torch
 
 # CHECK CONNECTION W WANDB
 wandb.login()
-project_name = "SQF_final"
+project_name = "StableSQF"
 
 # EXPERIMENT CONFIGURATION
 
 # Dataset
-dataset = "M5" #"M3_M3M4_train_and_validation" # "M3", "M4", "M3_M3M4_train", "M3_M3M4_train_and_validation"
+dataset = "M5"
 subset = "items"
-dataset_id = "M5I" #"M3M_IQF" # "M3S", "M4S", "M3S+", "M3S++"
+dataset_id = "M5I"
 validation_periods = 28
 test_periods = 28
 test_mode_nrows = None
