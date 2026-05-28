@@ -30,9 +30,12 @@ Please use the above in a newly created virtual environment to avoid clashing de
 
 ## Citing
 Please cite our paper and/or code as follows:
-
 ```tex
-
-@article{}
-
+@article{vanbelle2026StableSQF,
+  title     = {Stabilizing distribution-free probabilistic forecasts},
+  author    = {Van Belle, Jente and Wen, Honglin and Verbeke, Wouter and Pinson, Pierre},
+  year      = {2026},
+  journal   = {arXiv preprint arXiv:2605.28531},
+  url       = {https://arxiv.org/abs/2605.28531}
+}
 ```
