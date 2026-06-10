@@ -5,6 +5,9 @@
 ## Repository structure
 This repository is organised as follows:
 ```bash
+|- R scripts/
+    |- Baselines.R
+    |- SQF-stabilized.R
 |- data/
     |- processed/
     |- raw/
