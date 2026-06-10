@@ -42,3 +42,6 @@ Please cite our paper and/or code as follows:
   url       = {https://arxiv.org/abs/2605.28531}
 }
 ```
+
+## Contact
+Jente Van Belle (jente.vanbelle@kuleuven.be)
