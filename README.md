@@ -9,7 +9,7 @@ This repository is organised as follows:
     |- Baselines.R
     |- SQF-stabilized.R
 |- data/
-    |- processed/
+    |- processed/            # Saved TimeSeriesDataSets - for running experiments with same data structure (bl_multiplier, fc_length, val/test periods, input scaling, fo_range_multiplier)
     |- raw/
         |- m5_items.txt
 |- src/
