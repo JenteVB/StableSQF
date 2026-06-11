@@ -6,8 +6,8 @@
 This repository is organised as follows:
 ```bash
 |- R scripts/
-    |- Baselines.R
-    |- SQF-stabilized.R
+    |- Baselines.R           # ETS-G/B, mean-G/B, snaive-G/B
+    |- SQF-stabilized.R      # SQF-stabilized Partial and Full
 |- data/
     |- processed/            # Saved TimeSeriesDataSets - for running experiments with same data structure (bl_multiplier, fc_length, val/test periods, input scaling, fo_range_multiplier)
     |- raw/
@@ -18,10 +18,10 @@ This repository is organised as follows:
         |- M5.py
         |- utils/
     |- methods/
-        |- StableSQF.py
+        |- StableSQF.py      # SQF forecaster model architecture and optimization procedure to stabilize the forecasts (StableSQF)
     |- utils/
-|- main_M4_monthly.py
-|- main_M5_items.py
+|- main_M4_monthly.py        # Script to train a (Stable)SQF model on the M4 monthly dataset
+|- main_M5_items.py          # Script to train a (Stable)SQF model on the M5 items dataset
 ```
 
 ## Installing
