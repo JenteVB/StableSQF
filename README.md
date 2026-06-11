@@ -6,7 +6,7 @@
 This repository is organised as follows:
 ```bash
 |- R scripts/
-    |- Baselines.R           # ETS-G/B, mean-G/B, snaive-G/B
+    |- Baselines.R           # ETS-G/B, mean-G/B, snaive-G/B + dataset summary statistics
     |- SQF-stabilized.R      # SQF-stabilized Partial and Full
 |- data/
     |- processed/            # Saved TimeSeriesDataSets - for running experiments with same data structure (bl_multiplier, fc_length, val/test periods, input scaling, fo_range_multiplier)
@@ -30,6 +30,13 @@ We have provided a `requirements.txt` file:
 pip install -r requirements.txt
 ```
 Please use the above in a newly created virtual environment to avoid clashing dependencies.
+
+## Use
+To efficiently train (Stable)SQF models, access to a CUDA-enabled GPU is required.
+
+Weights & Biases is used for performance metric logging. Change the `project_name` to your `wandb` project in the script you want to run. A run produces a `.csv` file with the forecasts if you set `save_forecasts = True` (a `wandb` output folder is automatically created).
+
+The `SQF-stabilized.R` script requires two `.csv` files with forecasts as input: `quantile_forecasts.csv` and `quantile_forecasts_lagged.csv` (see `WriteQuantileForecastsToCSV` callback in `src/utils/callbacks.py`).
 
 ## Citing
 Please cite our paper and/or code as follows:
