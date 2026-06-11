@@ -34,7 +34,7 @@ Please use the above in a newly created virtual environment to avoid clashing de
 ## Use
 To efficiently train (Stable)SQF models, access to a CUDA-enabled GPU is required.
 
-Weights & Biases is used for performance metric logging. Change the `project_name` to your `wandb` project in the script you want to run. A run produces `.csv` files with the forecasts if you set `save_forecasts = True` (see `WriteQuantileForecastsToCSV` callback in `src/utils/callbacks.py`). A `wandb` output folder is automatically created.
+Weights & Biases is used for performance metric logging. Change the `project_name` in `main_*.py` to your `wandb` project in the script you want to run. A run produces `.csv` files with the forecasts if you set `save_forecasts = True` in `main_*.py` (see `WriteQuantileForecastsToCSV` callback in `src/utils/callbacks.py`). A `wandb` output folder is automatically created.
 
 The `SQF-stabilized.R` script takes two of these generated `.csv` files as input: `quantile_forecasts.csv` and `quantile_forecasts_lagged.csv`.
 
